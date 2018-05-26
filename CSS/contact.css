@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+h1, h2, h4, h5, h6 {
+    color: #014c3f;
+    font-size: 30pt;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    color: #004D40;
+    font-size: 12pt;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* CONTACT */
+.contactus-one .form-cont .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #0B486B;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #0B486B;
+    height: 45px;
+}
+.contactus-one .contact-form .form-control {
+    border-bottom: 1px solid #ccc;
+    box-shadow: none;
+}
+.contact-info > div > p {
+    margin-bottom: 10px;
+}
+.contactus-one .contact-info p i {
+    margin-right: 15px;
+    color: #3B8686;
+}
+
+.normal-btn {
+    background: #3B8686 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* GOOGLE MAPS */
+.map iframe {
+    pointer-events: none;
+    width: 100%;
+    margin: 5px;
+    border: none;
+    margin-left: 3%;
+}
+.map {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.map iframe{
+    pointer-events: none;
+    width:100%;
+    border:none;
+}
+.contactus-one .dart-headingstyle-one .dart-heading:after{
+    left:15px;
+}
