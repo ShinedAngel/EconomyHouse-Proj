@@ -1,0 +1,38 @@
+table#tabela {
+	width: 60%;
+	margin: 0px auto;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 3%;
+}
+
+td.name {
+	text-align: left;
+	padding-left: 10px;
+	background-color: #0e8449;
+}
+
+td, th {
+	background-color: #179355;
+	color: #abe05c;
+	cursor: default;
+}
+
+th.tit {
+	background-color: #246e3a;
+	color: #afdd6a;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+td:hover {
+	color: #e8d82e;
+	background-color: #179355;
+}
+
+#parag {
+	font-size: 14pt;
+	font-family: arial, sans-serif;
+	text-align: center;
+	margin-top: 20px;
+}

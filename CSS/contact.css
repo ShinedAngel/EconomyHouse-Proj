@@ -58,8 +58,8 @@ body {
     margin-left: 3%;
 }
 .map {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(90%);
 }
 .map iframe{
     pointer-events: none;

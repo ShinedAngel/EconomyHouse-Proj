@@ -1,0 +1,37 @@
+div.icon-box2 {
+	margin-top: 7%;
+	width: 28%;
+	float: left;
+	margin-left: 4%;
+	margin-right: 0px;
+	text-align: center;
+	text-align: justify;
+	padding: 10px;
+	font-family: arial, sans-serif;
+}
+
+
+img.icons2 {
+	width: 70%;
+	margin-left: 15%;
+}
+
+div.icon-box3 {
+	margin-top: 45%;
+    margin-left: 14%;
+    width: 70%;
+    text-align: center;
+    text-align: justify;
+}
+
+img#icons3 {
+	margin-left: 35%;
+	width: 30%;
+	position: ;
+}
+
+h4 {
+	font-family: arial, sans-serif;
+	text-align: center;
+	margin-top: 5%;
+}
