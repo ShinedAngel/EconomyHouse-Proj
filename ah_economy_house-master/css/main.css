@@ -1,0 +1,62 @@
+body#interface{
+    background-color: #3B8686;
+    color: #032309;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#container-calculo{  
+    background-color: #;
+    border-radius: 15px;
+    position: absolute;
+    margin: 20px;
+}
+
+button#adc {
+    background-color: #79BD9A;
+    border-color: #79BD9A;
+    color: #000;
+}
+
+table#tabela{
+    background-color: #4eb294;
+    text-align: center;
+    display: none;
+}
+
+th.result, #corpo-tabela, tr {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    color: #0B486B;
+    border: none;   
+}
+
+th.result {
+    background-color: #0B486B;
+    color: #fff;
+}
+
+td,th{
+    padding: 5px 20px;s
+}
+
+thead{
+    color: #ffffff;
+    background-color: #00cccc;
+    margin-top: 0px;
+}
+
+td:hover{
+   border: none;
+   color: #0B486B;
+}
+
+.iconeExcluir{
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
