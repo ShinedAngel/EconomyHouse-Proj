@@ -162,7 +162,9 @@ h3:nth-of-type(2) {
 
 img#celphone {
 	float: left;
-	margin-left: 40px;
+	margin-left: 60px;
+	width: 42%;
+	height: 30%;
 }
 
 div#break  {
