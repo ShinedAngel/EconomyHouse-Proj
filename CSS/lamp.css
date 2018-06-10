@@ -16,12 +16,37 @@ img.icons2 {
 	margin-left: 15%;
 }
 
+img.icons2:hover {
+    animation: bounce 1.6s;
+}
+
+@keyframes bounce{
+	10%, 40%, 70% {
+		transform: translateY(-10px);
+	}
+	25%, 55%, 85%{
+		transform: translateY(10px);
+	}
+}
+
 div.icon-box3 {
 	margin-top: 45%;
     margin-left: 14%;
     width: 70%;
     text-align: center;
     text-align: justify;
+}
+img#icons3:hover {
+    animation: bounce 1.6s;
+}
+
+@keyframes bounce{
+	10%, 40%, 70% {
+		transform: translateY(-10px);
+	}
+	25%, 55%, 85%{
+		transform: translateY(10px);
+	}
 }
 
 img#icons3 {
