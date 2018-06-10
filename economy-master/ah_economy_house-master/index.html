@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Calculadora de Gastos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body id="interface" onload="inicalizarSelectItens()">
+     <div class="container-fluid">
+        <div id="container-calculo" class="centered col-10 d-flex flex-column">
+                <form class="mb-2 ">
+                <div class="form-group row  d-flex flex-row mb-2 col-md-3">
+                    <label for="" class="letra">Item: 
+                    <select name="1" id="Itens" class="form-control" onchange="preencherCampoPotencia()">
+                        <option value="Selecione"> Selecione</option>
+                    </select></label>
+                </div>
+                <div class="form-group row d-flex flex-row mb-2 col-md-2">
+                    <label for="" class="letra">
+                    <input type="number" class="form-control" value="1" min="1" max id="quantidade"placeholder="Quantidade"></label>
+                    <label for="" class="letra">
+                    <input type="number" min="1" class="form-control" id="potencia" placeholder="Potência"></label>
+                    <label for="" class="letra" ></label>
+                    <input type="number" min="1" class="form-control" max="24" id="horas"placeholder="Horas de Uso">
+                    <label for="" class="letra" ></label>
+                    <input type="number" min="1" class="form-control" max="31" id="dias" placeholder="Dias de Uso">
+                </div>
+                <div class="d-flex row flex-row col-md-1 ">
+                    <button type="button" id="adc" class="btn" onclick='adicionar()'>Calcular</button>
+                </div>
+            </form>
+            <div class="table-responsive mb-0">
+                <table id="tabela">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="result">Codigo</th>
+                            <th scope="col" class="result">Nome</th>
+                            <th scope="col" class="result">Quantidade</th>
+                            <th scope="col" class="result">Potência</th>
+                            <th scope="col" class="result"> Horas</th>
+                            <th scope="col" class="result">Dias</th>
+                            <th scope="col" class="result">Gasto</th>
+                            <th scope="col" class="result"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpo-tabela">
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-group row d-flex flex-column col-md-2 col-sm-4">
+                <label for="" class="letra1"></label>
+                <input readonly class="form-control" id="resultado" type="text"
+                placeholder="Resultado Total">
+            </div>
+        </div>
+        <script type="text/javascript" src="resources/itens.json"></script>
+        <script src="js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+
+</body>
+</html>

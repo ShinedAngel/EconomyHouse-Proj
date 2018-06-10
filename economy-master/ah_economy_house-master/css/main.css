@@ -1,0 +1,83 @@
+body#interface{
+    background-color: #0B486B;
+    color: #CFF09E;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 9%;
+}
+
+
+#container-calculo{  
+    background-color: #;
+    border-radius: 15px;
+    position: absolute;
+    margin: 0px;
+}
+
+
+label.letra {
+    font-size: 8pt;
+    float: left;
+}
+
+button#adc {
+    background-color: #79BD9A;
+    border-color: #79BD9A;
+    border-radius: 4px;
+    color: #000;
+    height: 35px;
+    margin-left: 30%;
+}
+
+table#tabela{
+    background-color: #4eb294;
+    text-align: center;
+    display: none;
+}
+
+th.result, #corpo-tabela, tr {
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+    color: #0B486B;
+    border: none;
+    margin: 0px;
+    padding: 1px;
+    height: 8%;
+}
+
+th.result {
+    background-color: #0B486B;
+    color: #fff;
+}
+td,th{
+    padding: 5px 20px;
+
+}
+
+#horas, #dias {
+    width: 100%;
+    margin-top: 1px;
+
+    
+}
+
+thead{
+    color: #ffffff;
+    background-color: #00cccc;
+    margin-top: 0px;
+}
+
+td:hover{
+   border: none;
+   color: #0B486B;
+}
+
+.iconeExcluir{
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
